@@ -49,7 +49,7 @@ if(_ivf.verify()){
 
 拓展性-自定义添加验证模块
 
-Add Modules -> length 
+Add Modules - length 
 	
 _ivf.addModules('LENGTH','(n,x)',function(s,p,d){//s=>string,p=>param,d=>dom
 			var msgDom = d.nextSibling
@@ -65,9 +65,9 @@ _ivf.addModules('LENGTH','(n,x)',function(s,p,d){//s=>string,p=>param,d=>dom
 			return false
 		})
 		
-	Add Modules -> compare  
+Add Modules - compare  
 	
-	_ivf.addModules('COMPARE','(t)',function(s,p,d){
+_ivf.addModules('COMPARE','(t)',function(s,p,d){
 			var dom = document.getElementById(p[0])
 			var tValue = dom.value
 			_ivf.util.removeClass( dom , _ivf._EL )
@@ -81,4 +81,4 @@ _ivf.addModules('LENGTH','(n,x)',function(s,p,d){//s=>string,p=>param,d=>dom
 			_ivf.util.addClass( dom , _ivf._EL )
 			
 			return false
-		})
+	})
