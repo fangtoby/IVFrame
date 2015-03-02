@@ -31,7 +31,7 @@ var _ivf = new IVFrame()
 
 初始化
 
-_ivf.init({
+		_ivf.init({
 			element:'verify_frame',
 			errorClass:'input_error',
 			debug:true
