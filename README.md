@@ -31,6 +31,7 @@ HTML：
 
 初始化
 		var _ivf = new IVFrame()
+		
 		_ivf.init({
 			element:'verify_frame',
 			errorClass:'input_error',
