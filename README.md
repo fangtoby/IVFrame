@@ -25,12 +25,12 @@ HTML：
 
 \<script src="scripts/IVFrame.js"\>\</script\>
 
-		var _ivf = new IVFrame()
+	
 
 # Init IVFrame
 
 初始化
-
+		var _ivf = new IVFrame()
 		_ivf.init({
 			element:'verify_frame',
 			errorClass:'input_error',
