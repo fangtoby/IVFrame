@@ -15,13 +15,13 @@
 
 HTML：
 
-<input type="password" class="verify_frame" data-verify="LENGTH(5,20)&COMPARE(pwd_compare)"  placeholder="请输入密码" />
-<input type="password" id="pwd_compare" class="" placeholder="请再次输入密码" />
-<input type="text" class="verify_frame" data-verify="MOBILE" placeholder="请输入个人手机号码" />
+<input type="password" class="verify_frame" data-verify="LENGTH(5,20)&COMPARE(pwd_compare)"  placeholder="请输入密码" /\>
+<input type="password" id="pwd_compare" class="" placeholder="请再次输入密码" /\>
+<input type="text" class="verify_frame" data-verify="MOBILE" placeholder="请输入个人手机号码" /\>
 
 引入框架
 
-<script src="scripts/IVFrame.js"></script>
+<script src="scripts/IVFrame.js"\></script\>
 
 var _ivf = new IVFrame()
 
