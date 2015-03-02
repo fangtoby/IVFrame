@@ -39,21 +39,21 @@ _ivf.init({
 
 使用判断是否通过验证
 
-if(_ivf.verify()){
+		if(_ivf.verify()){
 					//pass verify	
 					console.log(_ivf.values)获取验证之后表单数据，使用ajax用于提交到后台
 					console.log('pass verify')
-}else{
+		}else{
 					//verify error	
 					console.log(_ivf.values)
 					console.log('verify error')
-}
+		}
 
 拓展性-自定义添加验证模块
 
 Add Modules - length 
 	
-_ivf.addModules('LENGTH','(n,x)',function(s,p,d){//s=>string,p=>param,d=>dom
+		_ivf.addModules('LENGTH','(n,x)',function(s,p,d){//s=>string,p=>param,d=>dom
 			var msgDom = d.nextSibling
 			msgDom.innerHTML = ''
 			if(s){
@@ -69,7 +69,7 @@ _ivf.addModules('LENGTH','(n,x)',function(s,p,d){//s=>string,p=>param,d=>dom
 		
 Add Modules - compare  
 	
-_ivf.addModules('COMPARE','(t)',function(s,p,d){
+		_ivf.addModules('COMPARE','(t)',function(s,p,d){
 			var dom = document.getElementById(p[0])
 			var tValue = dom.value
 			_ivf.util.removeClass( dom , _ivf._EL )
