@@ -23,7 +23,7 @@ HTML：
 
 引入框架
 
-		\<script src="scripts/IVFrame.js"\>\</script\>
+\<script src="scripts/IVFrame.js"\>\</script\>
 
 		var _ivf = new IVFrame()
 
